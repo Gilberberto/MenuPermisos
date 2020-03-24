@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 Toast.makeText(this, "Permiso consedido", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(this, "Permiso no consedido", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Permiso no concedido", Toast.LENGTH_SHORT).show();
                 togglesw(requestCode);
             }
         }
